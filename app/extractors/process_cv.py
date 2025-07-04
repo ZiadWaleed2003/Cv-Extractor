@@ -1,6 +1,6 @@
 from pdf_utils import is_text_based_pdf
-from image_extractor import extract_text_with_ocr
-from text_extractor import extract_text_from_pdf
+from image_extractor import ImageExtractor
+from text_extractor import TextExtractor
 
 def process_cv(file_path):
     """
@@ -14,12 +14,11 @@ def process_cv(file_path):
     """
     if is_text_based_pdf(file_path):
         print("Processing text-based PDF...")
-        return extract_text_from_pdf(file_path)
+        text_ext = TextExtractor()
+
+        return text_ext.extract_text_from_pdf(file_path)
     else:
         print("Processing scanned PDF with OCR...")
-        return extract_text_with_ocr(file_path)
-    
-path = r"./input/resume/Resume_scanned_version.pdf"
-res = process_cv(path)
 
-print(res)
+        img_ext = ImageExtractor()
+        return img_ext.extract_text_with_ocr(file_path)
