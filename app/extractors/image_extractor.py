@@ -49,6 +49,8 @@ def extract_text_with_ocr(file_path, dpi=300, lang='eng'):
     Returns:
         str: Extracted text content
     """
+
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
     try:
         print("Converting PDF to images using PyMuPDF...")
         extracted_text = ""
@@ -61,7 +63,7 @@ def extract_text_with_ocr(file_path, dpi=300, lang='eng'):
                 pix = page.get_pixmap(dpi=dpi)
                 
                 # Create temporary image file
-                with tempfile.NamedTemporaryFile(suffix=".png", delete=False) as temp_img:
+                with tempfile.NamedTemporaryFile(suffix=".png") as temp_img:
                     img_path = temp_img.name
                     pix.save(img_path)
                     
