@@ -2,15 +2,13 @@ import openai
 import os
 import json
 from data_model import ParsedCV
+from client import get_llm , get_llm_client
 
 class CvParser:
     def __init__(self):
-        self.client = openai.OpenAI(
-            base_url="https://integrate.api.nvidia.com/v1", 
-            api_key=os.getenv("NVIDIA_API_KEY")  
-        )
+        self.client = get_llm_client()
         
-        self.model = "qwen/qwen3-235b-a22b"
+        self.model = get_llm()
         self.system_prompt = self._create_system_prompt()
     
     def _create_system_prompt(self) -> str:
