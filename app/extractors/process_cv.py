@@ -1,6 +1,6 @@
-from pdf_utils import is_text_based_pdf
-from image_extractor import ImageExtractor
-from text_extractor import TextExtractor
+from app.extractors.pdf_utils import is_text_based_pdf
+from app.extractors.image_extractor import ImageExtractor
+from app.extractors.text_extractor import TextExtractor
 
 def process_cv(file_path):
     """
