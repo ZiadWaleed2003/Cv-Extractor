@@ -3,115 +3,108 @@
   "contact_info": {
     "email": "ziadwaleedmohamed2003@gmail.com",
     "phone": "+201141398855",
-    "linkedin": "www.linkedin.com/in/ziadwaleed",
-    "github": "https://github.com/ZiadWaleed2003",
+    "linkedin": "linkedin.com/in/ziadwaleed",
+    "github": "github.com/ZiadWaleed2003",
     "website": null,
     "address": "Cairo, Egypt"
   },
-  "summary": "Machine Learning Engineer",
+  "summary": null,
   "experience": [
     {
-      "company": "IEEE-FCAI",
-      "position": "Vice-Director Machine Learning Committee",
-      "start_date": "2024-12",
-      "end_date": null,
-      "location": null,
-      "description": null,
+      "company": "AICE XPERT",
+      "position": "AI / NLP Intern",
+      "start_date": "2025",
+      "end_date": "Present",
+      "location": "Remote",
+      "description": "Contributing to the development of CollabArena, a platform for AI agent collaboration and competition.",
       "achievements": null
     },
     {
       "company": "IEEE-FCAI",
-      "position": "Machine Learning Intern",
-      "start_date": "2023-03",
-      "end_date": "2023-11",
-      "location": null,
-      "description": "Worked with a number of different ML and DL models to create solutions with it.",
+      "position": "Vice-Director Machine Learning Committee",
+      "start_date": "2024-12",
+      "end_date": "2025-06",
+      "location": "Cairo, Egypt",
+      "description": null,
       "achievements": null
     }
   ],
   "education": [
     {
       "institution": "Helwan University",
-      "degree": "Bachelor's degree",
+      "degree": "Bachelor’s degree",
       "field_of_study": "Computer Science",
       "start_date": "2022",
-      "end_date": "2026-06",
+      "end_date": "2026",
       "gpa": null,
-      "location": null
+      "location": "Cairo, Egypt"
     }
   ],
   "skills": [
     "Python",
     "C++",
-    "Data Analysis",
-    "Machine Learning",
-    "Deep Learning",
-    "Web Scraping",
-    "Version-Control system (git)",
-    "Problem Solving",
-    "Data Structure and Algorithms",
     "Java",
-    "Tensorflow",
-    "Transformers"
+    "PHP",
+    "CrewAI",
+    "LangChain",
+    "PyTorch",
+    "Scikit-learn",
+    "Hugging Face",
+    "Transformers",
+    "Fine-Tuning LLMs",
+    "Git",
+    "Docker",
+    "REST APIs",
+    "AWS",
+    "MySQL",
+    "ChromaDB"
   ],
   "projects": [
     {
-      "name": "Financial RAG System for Stock Market Analysis",
-      "description": "Developed a Retrieval-Augmented Generation (RAG) system for financial data analysis using LangChain and ChromaDB. Integrated Alpha Vantage API to fetch stock market data and News API for real-time company news. Implemented time-series forecasting for stock price prediction (next 10 weeks) using historical data. Processed and chunked financial news, leveraging pretrained embedding models for vector search. Utilized Gemini 1.5 API as the LLM to power an AI chatbot for financial insights. Built a full-stack system (frontend & backend) to provide an interactive user experience.",
+      "name": "Dawrly: Autonomous Multi-Agent System for Job Hunting",
+      "description": "Engineered an autonomous multi-agent system using crewAI to automate the end-to-end job search process, from query generation to final reporting. Developed a four-agent crew: a Job Analyst for query creation, a Searcher using the Tavily API, a Scrutinizer leveraging the FireCrawl API for deep scraping, and a Report Generator. Architected a robust backend with FastAPI and integrated multiple LLM providers (Gemini 2.0 Flash, NVIDIA NIM(Qwen3), OpenRouter(DeepSeek-R1)) for enhanced flexibility and performance. Containerized the application with Docker for a full-stack deployment with a React frontend on AWS EC2.",
       "technologies": [
-        "LangChain",
-        "ChromaDB",
-        "Alpha Vantage API",
-        "News API",
-        "Gemini 1.5 API"
+        "CrewAI",
+        "FastAPI",
+        "Docker",
+        "AWS"
       ],
       "start_date": null,
       "end_date": null,
       "url": null
     },
     {
-      "name": "Arabic-to-English Machine Translation using mBART + LoRA",
-      "description": "Fine-tuned a many-to-many mBART model using LoRA adapters on an Arabic-English dataset, boosting the SacreBLEU score from 16 (base model) to 34.18. Deployed the fine-tuned model to Hugging Face Hub, making it accessible for inference. Built and deployed an interactive Gradio demo on Hugging Face Spaces to allow real-time translation usage.",
+      "name": "Financial RAG System for Stock Market Analysis",
+      "description": "Developed a Retrieval-Augmented Generation (RAG) system using LangChain and ChromaDB for financial data analysis. Integrated Alpha Vantage API for stock data and News API for real-time company news. Implemented time-series forecasting for stock price prediction (next 10 weeks) using historical data. Utilized Gemini 1.5 API as the LLM to power an AI chatbot for financial insights and built a full-stack user interface.",
+      "technologies": [
+        "LangChain",
+        "ChromaDB",
+        "Gemini 1.5",
+        "Alpha Vantage API"
+      ],
+      "start_date": null,
+      "end_date": null,
+      "url": null
+    },
+    {
+      "name": "Arabic-to-English Machine Translation",
+      "description": "Fine-tuned a many-to-many mBART model using LoRA adapters, boosting SacreBLEU score from 16 to 34.18. Deployed the fine-tuned model and an interactive Gradio demo to Hugging Face Hub and Spaces.",
       "technologies": [
         "mBART",
         "LoRA",
-        "Hugging Face Hub",
+        "Hugging Face",
         "Gradio"
       ],
       "start_date": null,
       "end_date": null,
-      "url": "https://huggingface.co/ZiadWaleed2003/mbart-ar-en-lora"
-    },
-    {
-      "name": "Vehicle Routing Problem (VRP) Optimization",
-      "description": "Developed an optimization solution for the VRP using Genetic Algorithms and Differential Evolution. Implemented advanced metaheuristic techniques to optimize routing for vehicles, improving efficiency in logistics and delivery systems.",
-      "technologies": [
-        "Genetic Algorithms",
-        "Differential Evolution"
-      ],
-      "start_date": null,
-      "end_date": null,
       "url": null
     },
     {
-      "name": "Money-Transferring-App",
-      "description": "Created a Face Recognition model as Log-in feature that enables the users to log in with their Face ID and password and also applied MVC and other design patterns.",
-      "technologies": [
-        "Face Recognition",
-        "MVC"
-      ],
-      "start_date": null,
-      "end_date": null,
-      "url": null
-    },
-    {
-      "name": "Attendance System Using QR code",
-      "description": "Developed a desktop Application using python, tkinter, OpenCV and Pandas to take the attendance of the students using their QR code by (laptop camera or phone camera) and then store the codes in a CSV file with the time of arrival and save the file in a specified folder at the end.",
+      "name": "Tournament Scheduler using Evolutionary Algorithms",
+      "description": "Implemented a tournament scheduler using Evolutionary Algorithms to solve a complex, multi-constraint scheduling problem. Designed a custom fitness function and genetic operators (crossover, mutation) to generate fair and balanced tournament schedules.",
       "technologies": [
         "Python",
-        "tkinter",
-        "OpenCV",
-        "Pandas"
+        "Matplotlib"
       ],
       "start_date": null,
       "end_date": null,
@@ -120,11 +113,11 @@
   ],
   "certifications": [],
   "languages": [
-    "Arabic",
-    "English"
+    "Arabic (Native)",
+    "English (Fluent)"
   ],
   "awards": [
-    "1st place in the Computer Vision Hackathon (Modifier 8.0 ML hackathon by IEEE HSB) by developing a CNN model that achieved a 95.8% accuracy score. Utilized a pre-trained model based on the Xception architecture and fine-tuned it to work with data. Applied data augmentation techniques to increase dataset size and enhance model performance for differentiating between 20 car categories."
+    "Modifier 8.0 ML Hackathon - 1st Place. Issued by IEEE HSB. Won 1st place in the Computer Vision Hackathon by developing a CNN model that achieved a 95.8% accuracy score. Utilized a pre-trained Xception architecture and fine-tuned it on a limited dataset. Applied data augmentation to increase dataset size and enhance model performance."
   ],
   "volunteer_experience": null,
   "hobbies": null
