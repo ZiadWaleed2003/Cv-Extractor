@@ -1,6 +1,6 @@
 import json
-from data_model import ParsedCV
-from client import get_llm , get_llm_client
+from app.agents.data_model import ParsedCV
+from app.agents.client import get_llm , get_llm_client
 
 class CvParser:
     def __init__(self):

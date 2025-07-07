@@ -1,4 +1,4 @@
-from client import get_llm , get_llm_client
+from app.agents.client import get_llm , get_llm_client
 
 
 class Scrutinizer:
