@@ -1,5 +1,3 @@
-import openai
-import os
 import json
 from data_model import ParsedCV
 from client import get_llm , get_llm_client

@@ -1,0 +1,45 @@
+Job Title: Machine Learning Intern
+Location: [Remote/On-site/City, Country]
+Duration: [X months]
+Stipend: [Amount, if applicable] / [Unpaid/Paid]
+
+About Us:
+[Briefly describe your company/organization, its mission, and the team the intern will work with.]
+
+Internship Responsibilities:
+Assist in developing and optimizing machine learning models.
+
+Clean, preprocess, and analyze datasets for training.
+
+Implement algorithms for [specific tasks, e.g., NLP, CV, predictive modeling].
+
+Collaborate with the team to deploy models and evaluate performance.
+
+Document experiments and present findings.
+
+Requirements:
+Pursuing or recently completed a degree in Computer Science, Data Science, AI, or related field.
+
+Basic knowledge of Python and ML libraries (e.g., TensorFlow, PyTorch, scikit-learn).
+
+Familiarity with data structures, algorithms, and statistics.
+
+Passion for AI/ML and eagerness to learn.
+
+(Optional) Experience with [Git, SQL, cloud platforms, etc.].
+
+Nice-to-Have:
+Projects or coursework in ML/AI.
+
+Understanding of deep learning architectures.
+
+Experience with data visualization tools (Matplotlib, Seaborn).
+
+Perks:
+Mentorship from experienced ML engineers.
+
+Hands-on experience with real-world projects.
+
+Certificate/LOR upon completion.
+
+(Optional) Potential full-time offer.
